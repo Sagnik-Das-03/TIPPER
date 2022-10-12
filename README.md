@@ -20,7 +20,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='file:///C:/Users/sagni/Downloads/gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://j.gifs.com/792E7A.gif' title='Video Walkthrough' width='500' alt='Video Walkthrough' />
 
 
 ## Features
