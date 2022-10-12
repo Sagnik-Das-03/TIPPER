@@ -20,7 +20,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://j.gifs.com/792E7A.gif' title='Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Sagnik-Das-03/TiPPer/blob/master/gif.gif' title='Walkthrough' width='540' alt='Video Walkthrough' />
 
 
 ## Features
