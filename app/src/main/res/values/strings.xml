@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tipper</string>
+    <string name="tv1">Base</string>
+    <string name="tv2">15%</string>
+    <string name="tv3">Tip</string>
+    <string name="tv4">Total</string>
+    <string name="ev1">Bill Amount in ₹(INR)</string>
+    <string name="tvFooter">MADE BY SAGNIK</string>
+    <string name="tvFOOT">A Tip / Bill Calculator</string>
+    <string name="tv5">Good</string>
+    <string name="tv6">Split</string>
+    <string name="tv8">Splitted Bill</string>
+    <string name="et2">Enter no. of Persons</string>
+    <string name="tv9">Bill(Rounded Up)</string>
+    <string name="tv10">Bill (Rounded Up)</string>
+    <string name="tv11">Rounded off bill after splitting</string>
+</resources>
