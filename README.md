@@ -20,9 +20,10 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/Sagnik-Das-03/TiPPer/blob/master/gif.gif' title='Walkthrough' width='240' alt='Video Walkthrough' />
-
-
+<p float="middle">
+    <img src='https://github.com/Sagnik-Das-03/TiPPer/blob/master/tipper.png' title='mainscreen' width='300' alt='home screen' />
+    <img src='https://github.com/Sagnik-Das-03/TiPPer/blob/master/gif.gif' title='Walkthrough' width='240' alt='Video Walkthrough' />
+ </p>
 ## Features
 
 * Pure Kotlin
