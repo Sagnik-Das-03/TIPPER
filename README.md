@@ -20,7 +20,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://j.gifs.com/792E7A.gif' title='Video Walkthrough' width='500' alt='Video Walkthrough' />
+<img src='https://j.gifs.com/792E7A.gif' title='Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## Features
@@ -31,7 +31,7 @@ Here's a walkthrough of implemented user stories:
 
 ## License
 
-    Copyright [2022] [Sagnik Das]
+    Copyright [2022] [SAGNIK DAS]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
