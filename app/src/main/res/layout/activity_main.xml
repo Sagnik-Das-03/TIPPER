@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mainLayout"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="0dp"
     tools:context=".MainActivity">
@@ -199,17 +199,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/et2"
-        android:inputType="number"
         android:imeOptions="actionDone"
+        android:inputType="number"
         android:minHeight="48dp"
         android:textAlignment="center"
         android:textColorHint="#757575"
         app:layout_constraintBottom_toBottomOf="@+id/tvSplit"
         app:layout_constraintStart_toEndOf="@+id/tvSplit"
-        app:layout_constraintTop_toTopOf="@+id/tvSplit"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="@+id/tvSplit" />
 
     <TextView
         android:id="@+id/tvTotalSplit"
