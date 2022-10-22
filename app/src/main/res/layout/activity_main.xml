@@ -9,6 +9,25 @@
     tools:context=".MainActivity">
     <!-- Views on the right side -->
 
+    <EditText
+        android:id="@+id/etBaseAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ev1"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textColorHint="#757575"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvBaseLevel"
+        app:layout_constraintStart_toEndOf="@+id/tvSplit"
+        app:layout_constraintTop_toTopOf="@+id/tvBaseLevel" />
+
     <TextView
         android:id="@+id/tvBaseLevel"
         android:layout_width="wrap_content"
@@ -56,28 +75,6 @@
         app:layout_constraintTop_toBottomOf="@+id/tvTipPercent"
         app:layout_constraintVertical_bias="0.31" />
 
-    <EditText
-        android:id="@+id/etBaseAmount"
-        android:layout_width="200dp"
-        android:layout_height="53dp"
-        android:layout_margin="0dp"
-        android:autofillHints=""
-        android:ems="8"
-        android:hint="@string/ev1"
-        android:imeOptions="actionDone"
-        android:inputType="numberDecimal"
-        android:minHeight="48dp"
-        android:scrollHorizontally="true"
-        android:selectAllOnFocus="false"
-        android:textAlignment="textStart"
-        android:textColorHint="#78909C"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBaseline_toBaselineOf="@+id/tvBaseLevel"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.013"
-        app:layout_constraintStart_toStartOf="@+id/seekBarTip"
-        tools:ignore="DuplicateIds,SpeakableTextPresentCheck" />
 
     <SeekBar
         android:id="@+id/seekBarTip"
@@ -223,12 +220,31 @@
         android:text="@string/tv8"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/tvBaseLevel"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvTotal"
         app:layout_constraintTop_toBottomOf="@+id/tvSplit"
-        app:layout_constraintVertical_bias="0.454" />
+        app:layout_constraintVertical_bias="0.454"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvSplitRoundedUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="252dp"
+        android:text="@string/tv10"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/SplitBillRoundedAmount"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvTotalSplit"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalSplit"
+        app:layout_constraintVertical_bias="0.476" />
 
     <TextView
         android:id="@+id/tvSplitBillAmount"
@@ -277,26 +293,6 @@
         tools:text="5000" />
 
     <TextView
-        android:id="@+id/tvSplitRoundedUp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="75dp"
-        android:text="@string/tv10"
-        android:textAllCaps="false"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/titleFooter"
-        app:layout_constraintEnd_toStartOf="@+id/SplitBillRoundedAmount"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/tvTotalRoundedUp"
-        app:layout_constraintTop_toBottomOf="@+id/tvTotalSplit"
-        app:layout_constraintVertical_bias="0.0"
-        tools:visibility="visible" />
-
-    <TextView
         android:id="@+id/SplitBillRoundedAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -312,17 +308,14 @@
         android:id="@+id/footer3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="49dp"
+        android:layout_marginBottom="96dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tv11"
         android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/titleFooter"
         app:layout_constraintEnd_toEndOf="@+id/SplitBillRoundedAmount"
-        app:layout_constraintHorizontal_bias="0.337"
-        app:layout_constraintStart_toStartOf="@+id/SplitBillRoundedAmount"
-        app:layout_constraintTop_toBottomOf="@+id/tvSplitRoundedUp"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="@+id/SplitBillRoundedAmount" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
