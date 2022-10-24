@@ -21,7 +21,7 @@ import androidx.core.content.ContextCompat
 import kotlin.math.roundToInt
 
 private const val TAG = "MainActivity"
-private const val INITIAL_TIP_PERCENT = 15
+private const val INITIAL_TIP_PERCENT = 0
 
 class MainActivity : AppCompatActivity() {
     private lateinit var  etBaseAmount: EditText
@@ -150,7 +150,6 @@ class MainActivity : AppCompatActivity() {
             tvTipAmount.text = ""
             tvTotalAmount.text = ""
             tvBillAmountRounded.text=""
-            tvSplitRoundedUp.text = ""
             tvSplitBillAmount.text = ""
             SplitBillRoundedAmount.text = ""
             tvSplitBillAmount.text = ""
