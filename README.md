@@ -1,4 +1,4 @@
-# TiPPer (Tip Calculator)
+# TIPPER (Tip Calculator)
 
 ## *Sagnik Das*
 
@@ -29,6 +29,7 @@ Here's a walkthrough of implemented user stories:
 
 * Pure Kotlin
 * Single Screen
+* Calculates all the values innstantly
 * No libraries
 
 ## License
