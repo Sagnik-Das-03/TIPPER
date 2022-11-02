@@ -32,6 +32,21 @@ Here's a walkthrough of implemented user stories:
 * Calculates all the values innstantly
 * No libraries
 
+## Instructions to Build
+
+* [x] Download Android Studio 
+
+Click the icon to download 
+<p align="left">
+   <a href='https://developer.android.com/studio?gclid=Cj0KCQjwqoibBhDUARIsAH2OpWi2VQ6w50tP7G8OeiMmIt9gK13cN1et0AU5tZ1O2KnjsOxrTWpP0aAr7TEALw_wcB&gclsrc=aw.ds'><img         width="200" src='https://github.com/Sagnik-Das-03/TIPPER/blob/master/studioicon.jpeg' /></a>
+</p>
+ 
+* [x] Set up Android Studio
+
+
+* [x] Download the project zip file 
+<a href='https://github.com/Sagnik-Das-03/MAP-ME/archive/refs/heads/master.zip'>Click here to Download</a>
+
 ## License
 
     Copyright [2022] [SAGNIK DAS]
