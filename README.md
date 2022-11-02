@@ -16,7 +16,7 @@ The following **required** functionality is completed:
 * [x] The user sees a label or color update based on the tip amount.
 
 
-## Video Walkthrough
+## Video Walk Through
 
 Here's a walkthrough of implemented user stories:
 
