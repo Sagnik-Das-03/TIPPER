@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
                 Log.i(TAG,"onProgressChanged $progress")
                 tvTipPercent.text = "$progress%"
                 computeTipAndTotal()
-                splittingBills()
+//                splittingBills()
                 updateTipDescription(progress)
             }
 
@@ -82,7 +82,9 @@ class MainActivity : AppCompatActivity() {
         etBaseAmount.addTextChangedListener(object :TextWatcher{
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) { }
 
-            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) { }
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                computeTipAndTotal()
+            }
 
             override fun afterTextChanged(s: Editable?) {
                 Log.i(TAG,"afterTextChanged $s")
@@ -94,11 +96,15 @@ class MainActivity : AppCompatActivity() {
         etSplit.addTextChangedListener(object :TextWatcher{
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) { }
 
-            override fun onTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) { }
+            override fun onTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+                computeTipAndTotal()
+//                splittingBills()
+            }
 
             override fun afterTextChanged(s: Editable?) {
                 Log.i(TAG,"afterTextChanges $s")
-                splittingBills()
+                computeTipAndTotal()
+//                splittingBills()
             }
 
         })
@@ -127,6 +133,9 @@ class MainActivity : AppCompatActivity() {
             tvTipAmount.text = ""
             tvTotalAmount.text = ""
             tvBillAmountRounded.text=""
+            tvSplitBillAmount.text = ""
+            SplitBillRoundedAmount.text = ""
+            tvSplitBillAmount.text = ""
             return
         }
         // 1. Gets the value of base and tip percent
@@ -135,42 +144,27 @@ class MainActivity : AppCompatActivity() {
         // 2. Computing the tip and total
         val tipAmount = baseAmount * tipPercent / 100
         val totalAmount =  baseAmount + tipAmount
-        var total = String.format("%.02f ₹(INR)", totalAmount)
-        var tip = String.format("%.02f ₹(INR)", tipAmount)
+        val total = String.format("%.02f ₹(INR)", totalAmount)
+        val tip = String.format("%.02f ₹(INR)", tipAmount)
         val totalRounded = totalAmount.roundToInt()
         val totalRoundedFormat = String.format("%d ₹(INR)",totalRounded)
         // 3. Updating the UI
         tvTipAmount.text = tip
         tvTotalAmount.text = total
         tvBillAmountRounded.text = totalRoundedFormat
-    }
 
-    private fun splittingBills(){
-        if(etBaseAmount.text.isEmpty() ){
-            tvTipAmount.text = ""
-            tvTotalAmount.text = ""
-            tvBillAmountRounded.text=""
-            tvSplitBillAmount.text = ""
-            SplitBillRoundedAmount.text = ""
-            tvSplitBillAmount.text = ""
-            return
-        }
-
-       if(etSplit.text.isEmpty() xor  etBaseAmount.text.isEmpty()){
+        //splitting logic
+        if(etSplit.text.isEmpty()){
             SplitBillRoundedAmount.text = ""
             tvSplitBillAmount.text = ""
             return
         }
         // 1. Gets the value of base and tip percent and no of persons
-        val baseAmount = etBaseAmount.text.toString().toDouble()
-        val tipPercent = seekBarTip.progress
         val persons = etSplit.text.toString().toDouble()
-        // 2. Computing the tip and total
-        val tipAmount = baseAmount * tipPercent / 100
-        val totalAmount =  baseAmount + tipAmount
+        // 2. Computing the split amount
         val splitBill = totalAmount / persons
         val splitBillFormat = String.format("%.02f ₹(INR)", splitBill)
-        // spliting logic
+        // splitting logic
         val splitBillRounded = splitBill.roundToInt()
         val splitBillRoundedFormat = String.format("%d ₹(INR)",splitBillRounded)
         // 3.Update the UI

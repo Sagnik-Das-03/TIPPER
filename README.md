@@ -29,7 +29,7 @@ Here's a walkthrough of implemented user stories:
 
 * Pure Kotlin
 * Single Screen
-* Calculates all the values innstantly
+* Calculates all the values instantly
 * No libraries
 
 ## Instructions to Build
@@ -47,6 +47,9 @@ Click the icon to download
 * [x] Download the project zip file 
 <a href='https://github.com/Sagnik-Das-03/MAP-ME/archive/refs/heads/master.zip'>Click here to Download</a>
 
+## Instructions to Build
+* Download Android Studio
+<a href='https://developer.android.com/studio?gclid=Cj0KCQjwqoibBhDUARIsAH2OpWi2VQ6w50tP7G8OeiMmIt9gK13c9EN1et0AU5tZ1O2KnjsOxrTWpP0aAr7TEALw_wcB&gclsrc=aw.ds'></a>
 ## License
 
     Copyright [2022] [SAGNIK DAS]
