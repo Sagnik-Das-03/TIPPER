@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="0dp"
-    android:background="@mipmap/main_back_foreground"
     android:padding="5dp"
     tools:context=".MainActivity">
     <!-- Views on the right side -->
