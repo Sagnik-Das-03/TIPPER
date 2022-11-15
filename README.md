@@ -60,6 +60,14 @@ Here's a walkthrough of implemented user stories:
 * [x] Open the app 
 
 
+## Some TestCases with Various Inputs
+<p float="middle">
+    <img src='https://github.com/Sagnik-Das-03/TIPPER/blob/master/testcase%20(1).jpg' title='input 1' width='200' alt='input 1' />
+    <img src='https://github.com/Sagnik-Das-03/TIPPER/blob/master/testcase%20(2).jpg' title='input 2' width='200' alt='input 2' />
+    <img src='https://github.com/Sagnik-Das-03/TIPPER/blob/master/testcase%20(3).jpg' title='input 3' width='200' alt='input 3' />
+    <img src='https://github.com/Sagnik-Das-03/TIPPER/blob/master/testcase%20(4).jpg' title='input 4' width='200' alt='input 4' />
+ </p>
+
 ## License
     Copyright [2022] [SAGNIK DAS]
 
