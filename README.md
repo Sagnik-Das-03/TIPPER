@@ -45,12 +45,11 @@ Click the icon to download
 
 
 * [x] Download the project zip file 
-<a href='https://github.com/Sagnik-Das-03/MAP-ME/archive/refs/heads/master.zip'>Click here to Download</a>
+<a href='https://github.com/Sagnik-Das-03/MAP-ME/archive/refs/heads/master.zip'>Click here to Download Zip</a>
 
-## Instructions to Build
-* Download Android Studio
-<a href='https://developer.android.com/studio?gclid=Cj0KCQjwqoibBhDUARIsAH2OpWi2VQ6w50tP7G8OeiMmIt9gK13c9EN1et0AU5tZ1O2KnjsOxrTWpP0aAr7TEALw_wcB&gclsrc=aw.ds'></a>
-## License
+* [x] Download the apk
+<a href='https://drive.google.com/file/d/11rvwZD2m7LaRsvMaoyugFC0UmNZx4zDD/view?usp=sharing'>Click here to Download Apk</a>
+
 
     Copyright [2022] [SAGNIK DAS]
 
