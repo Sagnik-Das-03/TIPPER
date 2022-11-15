@@ -34,11 +34,13 @@ Here's a walkthrough of implemented user stories:
 
 ## Instructions to Build
 
+### Method 1:
 * [x] Download Android Studio 
 
-Click the icon to download 
+* [x] Click the icon to download
+ 
 <p align="left">
-   <a href='https://developer.android.com/studio?gclid=Cj0KCQjwqoibBhDUARIsAH2OpWi2VQ6w50tP7G8OeiMmIt9gK13cN1et0AU5tZ1O2KnjsOxrTWpP0aAr7TEALw_wcB&gclsrc=aw.ds'><img         width="200" src='https://github.com/Sagnik-Das-03/TIPPER/blob/master/studioicon.jpeg' /></a>
+   <a href='https://developer.android.com/studio?gclid=Cj0KCQjwqoibBhDUARIsAH2OpWi2VQ6w50tP7G8OeiMmIt9gK13cN1et0AU5tZ1O2KnjsOxrTWpP0aAr7TEALw_wcB&gclsrc=aw.ds'><img         width="150" src='https://github.com/Sagnik-Das-03/TIPPER/blob/master/studioicon.jpeg' /></a>
 </p>
  
 * [x] Set up Android Studio
@@ -47,10 +49,18 @@ Click the icon to download
 * [x] Download the project zip file 
 <a href='https://github.com/Sagnik-Das-03/MAP-ME/archive/refs/heads/master.zip'>Click here to Download Zip</a>
 
+* [x] Extract it and open in android studio
+
+* [x] Run the app from android studio 
+
+### Method 2:
 * [x] Download the apk
 <a href='https://drive.google.com/file/d/11rvwZD2m7LaRsvMaoyugFC0UmNZx4zDD/view?usp=sharing'>Click here to Download Apk</a>
+* [x] Install the apk on your device
+* [x] Open the app 
 
 
+## License
     Copyright [2022] [SAGNIK DAS]
 
     Licensed under the Apache License, Version 2.0 (the "License");
