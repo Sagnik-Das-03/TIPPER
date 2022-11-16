@@ -56,7 +56,7 @@ Here's a walkthrough of implemented user stories:
 ### Method 2:
 * [x] Download the apk
 <a href='https://drive.google.com/file/d/11rvwZD2m7LaRsvMaoyugFC0UmNZx4zDD/view?usp=sharing'>Click here to Download Apk</a>
-* [x] Install the apk on your device
+* [x] Install the apk on your android device
 * [x] Open the app 
 
 
