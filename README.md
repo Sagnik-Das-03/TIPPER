@@ -47,7 +47,7 @@ Here's a walkthrough of implemented user stories:
 
 
 * [x] Download the project zip file 
-<a href='https://github.com/Sagnik-Das-03/MAP-ME/archive/refs/heads/master.zip'>Click here to Download Zip</a>
+<a href='https://github.com/Sagnik-Das-03/TIPPER/archive/refs/heads/master.zip'>Click here to Download Zip</a>
 
 * [x] Extract it and open in android studio
 
