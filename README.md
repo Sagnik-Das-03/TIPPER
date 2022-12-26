@@ -54,8 +54,8 @@ Here's a walkthrough of implemented user stories:
 * [x] Run the app from android studio 
 
 ### Method 2:
-* [x] Download the apk
-<a href='https://drive.google.com/file/d/11rvwZD2m7LaRsvMaoyugFC0UmNZx4zDD/view?usp=sharing'>Click here to Download Apk</a>
+* [x] Download the apk(Note: Apk might not be up to date)
+<a href='https://drive.google.com/file/d/1ODHk6t_bPreovt4aGxbnVVOTkAMvH4Po/view?usp=share_link'>Click here to Download Apk</a>
 * [x] Install the apk on your android device
 * [x] Open the app 
 
