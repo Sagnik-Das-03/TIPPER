@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColor">#FFC107</color>
+    <color name="bgColor">#DF1C1C1C</color>
+    <color name="etColor">#8BC34A</color>
+
+</resources>
